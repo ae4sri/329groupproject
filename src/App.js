@@ -10,11 +10,12 @@ const App = () => {
 
   return ( 
     <>
-    <NavBar />
     <Router>
+      <NavBar />
+      
         <Routes>
 
-          <Route path="/game" element={<IndexPage />} />
+          <Route path="/game" element={<GamePage />} />
 
           <Route path="/comic" element={<ComicPage />} />
 
