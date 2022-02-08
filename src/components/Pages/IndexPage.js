@@ -1,15 +1,16 @@
 import { Container, Card, Button, Collapse } from "react-bootstrap"
 import { Grid } from '@mui/material'
 import { useState } from "react";
-
+import { IndexCarousel } from "../IndexCarousel";
 
 export const IndexPage = () => {
   const [open, setOpen] = useState(false);
 
   return (
     <Container>
-      <h1 style={{ textAlign: "center" }}>Hello,</h1>
-      <p style={{ textAlign: "center" }}>welcome to our group project for CPSC 329.</p>
+      {/* <h1 style={{ textAlign: "center" }}>Hello,</h1>
+      <p style={{ textAlign: "center" }}>welcome to our group project for CPSC 329.</p> */}
+      <IndexCarousel />
       <Grid container spacing={2}>
 
         <Grid item xs={6}>
