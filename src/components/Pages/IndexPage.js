@@ -8,9 +8,10 @@ export const IndexPage = () => {
 
   return (
     <Container>
-      {/* <h1 style={{ textAlign: "center" }}>Hello,</h1>
-      <p style={{ textAlign: "center" }}>welcome to our group project for CPSC 329.</p> */}
+           <h1 style={{ textAlign: "center" }}>CPSC 329 Group Project</h1>
       <IndexCarousel />
+      <p style={{ textAlign: "center" }}>Welcome to our project. Here are some details:</p>
+ 
       <Grid container spacing={2}>
 
         <Grid item xs={6}>
