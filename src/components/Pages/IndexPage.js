@@ -4,14 +4,26 @@ import { useState } from "react";
 import { IndexCarousel } from "../IndexCarousel";
 
 export const IndexPage = () => {
+
   const [open, setOpen] = useState(false);
+
+  const ButtonText = () => {
+    if (!open) {
+      return (
+        <p>Click To Read</p>
+      )
+    }
+    return (
+      <p>Hide</p>
+    )
+  }
 
   return (
     <Container>
-           <h1 style={{ textAlign: "center" }}>CPSC 329 Group Project</h1>
       <IndexCarousel />
-      <p style={{ textAlign: "center" }}>Welcome to our project. Here are some details:</p>
- 
+      <h1 style={{ textAlign: "center" }}>CPSC 329 W22 Group Project</h1>
+      <hr style={{ width:"90%", margin: "auto"}} />
+      <br />
       <Grid container spacing={2}>
 
         <Grid item xs={6}>
@@ -39,9 +51,12 @@ export const IndexPage = () => {
             <b>Our Motivation</b> <br />
 
             <Button
+              size="sm"
               onClick={() => setOpen(!open)}
               aria-controls="example-collapse-text"
-              aria-expanded={open}>Click To View
+              aria-expanded={open}
+              variant="secondary">
+                <ButtonText />
             </Button>
 
             <Collapse in={open}>
