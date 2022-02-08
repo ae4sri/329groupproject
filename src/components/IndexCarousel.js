@@ -8,7 +8,7 @@ import land3 from '../images/land3.jpg'
 export const IndexCarousel = () => {
 
   const width = 400
-  const height = 600
+  const height =  500
 
   return (
     <div className='mb-3'>
