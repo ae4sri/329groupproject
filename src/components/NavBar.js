@@ -12,6 +12,7 @@ export const NavBar = () => {
           <Nav.Link as={Link} to="/game">Game</Nav.Link>
           <Nav.Link as={Link} to="/comic">Comic</Nav.Link>
           <Nav.Link as={Link} to="/quiz">Quiz</Nav.Link>
+          <Nav.Link as={Link} to="/about">About Us</Nav.Link>
         </Nav>
         </Container>
       </Navbar>
