@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const NavBar = () => {
   return (
     <>
-    <Navbar bg="light" variant="light">
+    <Navbar sx={{ backgroundColor: 'transparent' }}>
         <Container>
         <Navbar.Brand>CPSC 329 Group Project</Navbar.Brand>
         <Nav className="me-auto">
