@@ -20,9 +20,10 @@ export const IndexPage = () => {
 
   return (
     <Container>
-      <IndexCarousel />
       <h1 style={{ textAlign: "center" }}>CPSC 329 W22 Group Project</h1>
       <hr style={{ width:"90%", margin: "auto"}} />
+      <br />
+      <IndexCarousel />
       <br />
       <Grid container spacing={2}>
 
@@ -30,36 +31,18 @@ export const IndexPage = () => {
 
           <Card body>
             <b>Who are we?</b> <br />
-            We are students at the University of Calgary. We are <br />
-            <i>Amin Elnasri, Ayomide Alabi, Umar Hassan, Cebrail Emin Durna</i>
+            We are students at the University of Calgary. 
+            To learn more about us, go to the About Us link in the navigation bar.
           </Card>
 
           <br />
 
           <Card body>
-            <b>Who did what?</b> <br />
-            This website was created and programmed by Amin and Umar. The whole group contributed to its content and design however.
-            The game was created by Ayo, however the whole group helped determine its level design, information, and gameplay.
-            The quiz, and the comic were both created by Cebrail. We all gave input on every component of the project, and regularly
-            communicated ideas back and forth throughout the project's creation.
 
-          </Card>
-          <br />
+            <b>Project Motivation</b> <br />
 
-          <Card body>
 
-            <b>Our Motivation</b> <br />
 
-            <Button
-              size="sm"
-              onClick={() => setOpen(!open)}
-              aria-controls="example-collapse-text"
-              aria-expanded={open}
-              variant="secondary">
-                <ButtonText />
-            </Button>
-
-            <Collapse in={open}>
               <div id="example-collapse-text">
                 Nowadays, almost every aspect of our lives are connected to the internet one way or another.
                 From our groceries and furniture to our bank accounts and health records. And the trend is that
@@ -68,16 +51,10 @@ export const IndexPage = () => {
                 Threats such as an adversary getting a hold of one's passwords and as a result compromising vital
                 utilities like bank accounts which cause great harm to a person’s financial abilities. Another aspect
                 which can also be viewed under the topic of privacy is a person’s rights online, how much say do we
-                have over our data? Since our lives are being moved online, our rights should as well. But for many,
-                these topics aren’t relevant as very often, we disregard the seriousness of the internet domain.
-                In order to promote and maintain a productive environment over the internet we should inform people of
-                the threats they face and what they can do to protect against it. Almost everyone refers to the internet
-                for information. As a result the easiest and most effective way to reach mass amounts of people would be
-                through the internet itself. Considering this, we have decided on creating an informative website which
+                have over our data? Considering this, we have decided on creating an informative website which
                 everyone could reach just by “googling”. In this website, we will convey information about security and
                 privacy to people so that they can learn more about the potential threats they face by just using the internet.
               </div>
-            </Collapse>
           </Card>
 
         </Grid>
