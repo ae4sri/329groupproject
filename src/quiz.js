@@ -1,5 +1,5 @@
 const title = `
-Quiz Title
+Quiz on security and privacy
 `
 
 const description = `
@@ -13,7 +13,7 @@ This answer is incorrect. Please try again!
 
 
 export const quiz =  {
-  "quizTitle": "Quiz on Security and Privacy",
+  "quizTitle": title,
   "quizSynopsis": description,
   "questions": [
     {
