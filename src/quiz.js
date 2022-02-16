@@ -17,20 +17,21 @@ export const quiz =  {
   "quizSynopsis": description,
   "questions": [
     {
-      "question": "How can you access the state of a component from inside of a member function?",
+      "question": "Which of these is a worm?",
       "questionType": "text",
-      "questionPic": "https://dummyimage.com/600x400/000/fff&text=X", // if you need to display Picture in Question
+      // "questionPic": "https://dummyimage.com/600x400/000/fff&text=X", // if you need to display Picture in Question
       "answerSelectionType": "single",
       "answers": [
-        "this.getState()",
-        "this.prototype.stateValue",
-        "this.state",
-        "this.values"
+        "A malware that replicates copies itself from computer to computer.",
+        "Unwanted or malicious advertisements.",
+        "An email spam bot.",
+        "A malware that secretly gathers information about a person or organization and relays this data to other parties"
       ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": `Correct! Good job.`,
       "messageForIncorrectAnswer": incorrectAnswer,
-      "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "explanation": `A worm is a malicious, self-replicating malware that can spread without user interaction.
+      They are often transmitted through file sharing networks, e.g. email attachments and links to bad websites.`,
       "point": "1"
     },
     {
