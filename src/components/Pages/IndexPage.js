@@ -1,22 +1,9 @@
-import { Container, Card, Button, Collapse } from "react-bootstrap"
+import { Container, Card } from "react-bootstrap"
 import { Grid } from '@mui/material'
-import { useState } from "react";
 import { IndexCarousel } from "../IndexCarousel";
 
 export const IndexPage = () => {
 
-  const [open, setOpen] = useState(false);
-
-  const ButtonText = () => {
-    if (!open) {
-      return (
-        <p>Click To Read</p>
-      )
-    }
-    return (
-      <p>Hide</p>
-    )
-  }
 
   return (
     <Container>
@@ -40,8 +27,6 @@ export const IndexPage = () => {
           <Card body>
 
             <b>Project Motivation</b> <br />
-
-
 
               <div id="example-collapse-text">
                 Nowadays, almost every aspect of our lives are connected to the internet one way or another.
