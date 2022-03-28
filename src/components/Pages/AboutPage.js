@@ -6,18 +6,19 @@ export const AboutPage = () => {
     <>
         <b>Who are we?</b>
         <br />
-        <i>Amin Elnasri, Ayomide Alabi, Umar Hassan, Cebrail Emin Durna</i>
+        <i>We are students at the University of Calgary. This website is our final project for 
+          CPSC 329 - an informational security course at our University.
+        </i>
         <br />
         <br />
-        <b>Who did what?</b> <br />
-    This website was created and programmed by Amin and Umar. The whole group contributed to its content and design however.
-    The game was created by Ayo, however the whole group helped determine its level design, information, and gameplay.
-    The quiz, and the comic were both created by Cebrail. We all gave input on every component of the project, and regularly
-    communicated ideas back and forth throughout the project's creation.
-
-    <br />
-    <br />
-
+        <b>Our Names</b>
+        <br />
+        <ul>
+          <li>Amin Elnasri</li>
+          <li>Ayo Alabi</li>
+          <li>Umar Hassan</li>
+          <li>Cebrail Durna</li>
+        </ul>
     <b>Source Code</b>
     <ul>
       <li><Link to=".">Website Source Code</Link></li>
