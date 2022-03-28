@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, HashRouter } from 'react-router-dom'
 import { NavBar } from './components/NavBar';
 import { IndexPage } from './components/Pages/IndexPage';
 import { ComicPage } from './components/Pages/ComicPage'
@@ -12,7 +12,7 @@ const App = () => {
 
   return ( 
     <>
-    <Router>
+    <HashRouter>
       <NavBar />
       
         <Routes>
@@ -28,7 +28,7 @@ const App = () => {
           <Route path="/" element={<IndexPage />} />
 
         </Routes>
-      </Router>
+      </HashRouter>
     </>
   )
 }
