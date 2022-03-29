@@ -1,13 +1,14 @@
 import { Container, Card } from "react-bootstrap"
 import { Grid } from '@mui/material'
 import { IndexCarousel } from "../IndexCarousel";
+import { Link } from "react-router-dom";
 
 export const IndexPage = () => {
 
 
   return (
-    <Container>
-      <h1 style={{ textAlign: "center" }}>CPSC 329 W22 Group Project</h1>
+    <Container >
+      <h1 style={{ textAlign: "center", marginTop:"20px", fontWeight:"bolder" }}>CPSC 329 W22 Group Project</h1>
       <hr style={{ width:"90%", margin: "auto"}} />
       <br />
       <IndexCarousel />
@@ -17,7 +18,7 @@ export const IndexPage = () => {
         <Grid item xs={6}>
 
           <Card body>
-            <b>Who are we?</b> <br />
+            <b style={{fontSize:'20px', fontWeight:'bold'}}>Who are we?</b> <br />
             We are students at the University of Calgary. 
             To learn more about us, go to the About Us link in the navigation bar.
           </Card>
@@ -26,7 +27,7 @@ export const IndexPage = () => {
 
           <Card body>
 
-            <b>Project Motivation</b> <br />
+            <b style={{fontSize:'20px', fontWeight:'bold'}}>Project Motivation</b> <br />
 
               <div id="example-collapse-text">
                 Nowadays, almost every aspect of our lives are connected to the internet one way or another.
@@ -40,28 +41,29 @@ export const IndexPage = () => {
                 everyone could reach just by “googling”. In this website, we will convey information about security and
                 privacy to people so that they can learn more about the potential threats they face by just using the internet.
               </div>
+              <div style={{marginTop:'55px'}}></div>
           </Card>
 
         </Grid>
 
         <Grid item xs={6}>
           <Card body>
-            <b>What is this project?</b> <br />
+            <b style={{fontSize:'20px', fontWeight:'bold'}}>What is this project?</b> <br />
             Our goal was to create an informative website about security and privacy.
             The purpose of this website is to inform users about what we think is vital information about security and privacy
             (topic 1 in the course) in a creative manner. We've tried to make the process of learning enjoyable.
             And so, on this website, we have: <br />
             <ul>
-              <li>A quiz</li>
-              <li>A comic</li>
-              <li>A game</li>
+              <li>A <Link to='/quiz'>quiz</Link></li>
+              <li>A <Link to='/comic'>comic</Link></li>
+              <li>A <Link to='/game'>game</Link></li>
             </ul>
           </Card>
 
           <br />
 
           <Card body>
-            <b>What am I supposed to do?</b> <br />
+            <b style={{fontSize:'20px', fontWeight:'bold'}}>What am I supposed to do?</b> <br />
             We have some basic instructions for you to go through this website.
             <ol>
               <li>First, check out our comic. Do this by going over to the navigation bar, and clicking "Comic".</li>
@@ -73,6 +75,8 @@ export const IndexPage = () => {
 
         </Grid>
       </Grid>
+
+      <div style={{marginTop:'30px'}}></div>
     </Container>
   )
 }

@@ -9,7 +9,7 @@ export const IndexCarousel = () => {
 
   return (
     <div className='mb-3'>
-      <Carousel>
+      <Carousel >
         <Carousel.Item>
           <img
             className="d-block w-100"

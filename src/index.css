@@ -1,9 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Mono');
+
 body {
   background-color: #021736;
   background-image: linear-gradient(0deg, #c9c9c9 0%, #f5f7fa 100%);
-  }
+  font-family: 'Red Hat Mono','Courier New', Courier, monospace;
+}
 
-  html, body {
+html, body {
     margin: 0;
     min-height: 100%;
 }
+
+
+.navbar{
+    border-color: black;
+    border-bottom: 1.5px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 0;
+    padding: 0;
+    height: 70px;
+}
+
+.navbar > .container{
+    margin:0;
+    padding: 0;
+}
+
+.navbar-title{
+    font-size: 25px;
+    font-weight: bolder;
+    /* margin-left: 2px; */
+    height: 70px;
+    border-color: black;
+    border-bottom: 1.5px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+
+}
+
+.nav-link{
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 150px;
+    margin-left: 50px;
+    /* padding-top: 15px; */
+    display: inline-block;
+  position: relative;
+  color: black;
+  text-align: center;
+}
+
+.nav-link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .nav-link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
