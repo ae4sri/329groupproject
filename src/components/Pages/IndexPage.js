@@ -33,15 +33,12 @@ export const IndexPage = () => {
 
               <div class="cardText">
                 Nowadays, almost every aspect of our lives are connected to the internet one way or another.
-                From our groceries and furniture to our bank accounts and health records. And the trend is that
-                our lives will get more and more digitized as we venture towards the future. As more people get
-                into this uncharted domain, many are faced with threats that they do not know how to prepare for.
+                From our groceries and furniture, to our bank accounts and health records. Our lives will get more and more digitized as we venture towards the future. 
+                As more people get into this uncharted domain, many are faced with threats that they do not know how to prepare for.
                 Threats such as an adversary getting a hold of one's passwords and as a result compromising vital
-                utilities like bank accounts which cause great harm to a person’s financial abilities. Another aspect
-                which can also be viewed under the topic of privacy is a person’s rights online, how much say do we
-                have over our data? Considering this, we have decided on creating an informative website which
-                everyone could reach just by “googling”. In this website, we will convey information about security and
-                privacy to people so that they can learn more about the potential threats they face by just using the internet.
+                utilities like bank accounts which cause great harm to people. Considering this, we have decided on creating an informative website to perhaps
+                help people prevent these sorts of dangers from happening to them. In this website, we will convey information about security and
+                privacy to people so that they can learn more about the potential threats they face by just using the internet, and learn to defend themselves.
               </div>
           </Card>
 
