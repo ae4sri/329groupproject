@@ -8,7 +8,6 @@ export const AboutPage = () => {
     const link = "http://www.example.com/"
     return (
         <Container>
-            <div style={{ marginTop: '30px' }}></div>
             <div id="aboutTitle" style={{ textAlign: "center" }}> Who are we?</div>
             <br />
             <div id="aboutUsDescription">
@@ -22,7 +21,7 @@ export const AboutPage = () => {
                         <Card >
                             <Card.Body>
                                 <Card.Title class="cardTitle">Amin Elnasri</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">BSc. Computer Science</Card.Subtitle>
+                                {/* <Card.Subtitle className="mb-2 text-muted">BSc. Computer Science</Card.Subtitle> */}
                                 <Card.Text class="cardText">
                                     Developed and hosted the website.
                                     <br />
@@ -36,7 +35,7 @@ export const AboutPage = () => {
                         <Card>
                             <Card.Body>
                                 <Card.Title class="cardTitle">Ayo Alabi</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">Program</Card.Subtitle>
+                                {/* <Card.Subtitle className="mb-2 text-muted">Program</Card.Subtitle> */}
                                 <Card.Text class="cardText">
                                     Developed the game for the website.
                                     <br />
@@ -52,7 +51,7 @@ export const AboutPage = () => {
                         <Card >
                             <Card.Body>
                                 <Card.Title class="cardTitle">Umar Hassan</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">Program</Card.Subtitle>
+                                {/* <Card.Subtitle className="mb-2 text-muted">Program</Card.Subtitle> */}
                                 <Card.Text class="cardText">
                                     Developed and styled the website.
                                 </Card.Text>
@@ -64,7 +63,7 @@ export const AboutPage = () => {
                         <Card >
                             <Card.Body>
                                 <Card.Title class="cardTitle">Cebrail Durna</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">Program</Card.Subtitle>
+                                {/* <Card.Subtitle className="mb-2 text-muted">Program</Card.Subtitle> */}
                                 <Card.Text class="cardText">
                                     Created the quiz and comic.
                                 </Card.Text>
