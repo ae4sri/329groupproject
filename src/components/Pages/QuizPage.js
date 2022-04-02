@@ -5,7 +5,11 @@ import { quiz } from '../../quiz';
 
 export const QuizPage = () => {
   return (
-    <Container id="quiz">
+    <Container id="quiz"  style={{
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+  }}>
       <Quiz quiz={quiz} showInstantFeedback={true} continueTillCorrect={true} />
     </Container>
   )
