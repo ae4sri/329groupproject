@@ -5,7 +5,7 @@ import { quiz } from '../../quiz';
 
 export const QuizPage = () => {
   return (
-    <Container>
+    <Container id="quiz">
       <Quiz quiz={quiz} showInstantFeedback={true} continueTillCorrect={true} />
     </Container>
   )
