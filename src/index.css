@@ -13,12 +13,6 @@ html, body {
 
 
 .navbar{
-    border-color: black;
-    border-bottom: 1.5px;
-    border-style: solid;
-    border-top: none;
-    border-left: none;
-    border-right: none;
     margin: 0;
     padding: 0;
     height: 70px;
@@ -35,7 +29,7 @@ html, body {
     /* margin-left: 2px; */
     height: 70px;
     border-color: black;
-    border-bottom: 1.5px;
+    border-bottom: solid;
     border-style: solid;
     border-top: none;
     border-left: none;
@@ -49,13 +43,13 @@ html, body {
 .nav-link{
     padding-left: 70px;
     padding-right: 70px;
-    width: 150px;
+    width: 100%;
     margin-left: 50px;
     /* padding-top: 15px; */
     display: inline-block;
-  position: relative;
-  color: black;
-  text-align: center;
+    position: relative;
+    color: black;
+    text-align: center;
 }
 
 .nav-link:after {
