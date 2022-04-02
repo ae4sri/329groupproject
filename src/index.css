@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Red+Hat+Mono');
 
 body {
-  background-color: #021736;
   background-image: linear-gradient(0deg, #c9c9c9 0%, #f5f7fa 100%);
-  font-family: 'Red Hat Mono','Courier New', Courier, monospace;
 }
 
 html, body {
@@ -12,9 +10,7 @@ html, body {
 }
 
 
-.navbar{
-    margin: 0;
-    padding: 0;
+.navbar {
     height: 70px;
 }
 
@@ -28,28 +24,21 @@ html, body {
     font-weight: bolder;
     /* margin-left: 2px; */
     height: 70px;
-    border-color: black;
-    border-bottom: solid;
-    border-style: solid;
-    border-top: none;
-    border-left: none;
-    border-right: solid;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 15px;
+    font-family: 'Sora', sans-serif;  
 
 }
 
 .nav-link{
-    padding-left: 70px;
-    padding-right: 70px;
-    width: 100%;
     margin-left: 50px;
     /* padding-top: 15px; */
     display: inline-block;
     position: relative;
     color: black;
     text-align: center;
+    font-family: 'Sora', sans-serif;
 }
 
 .nav-link:after {
@@ -69,3 +58,34 @@ html, body {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
+  .title {
+    font-family: 'Sora', sans-serif;  
+  }
+
+  .cardTitle {
+    font-size:25px;
+    font-weight: bold;
+    font-family: 'Sora', sans-serif;  
+  }
+
+
+  #aboutTitle {
+    font-size:35px;
+    font-weight: bold;
+    font-family: 'Sora', sans-serif;
+    }
+
+
+.cardText {
+  font-family: 'Sora', sans-serif;
+  }
+
+#quiz {
+  font-family: 'Sora', sans-serif;
+}
+
+#aboutUsDescription {
+  font-family: 'Sora', sans-serif;
+
+}
