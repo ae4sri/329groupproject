@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const NavBar = () => {
   return (
     <>
-    <Navbar sx={{ backgroundColor: 'transparent' }} className="navbar">
+    <Navbar collapseOnSelect expand="lg" sx={{ backgroundColor: 'transparent' }} className="navbar">
         <Container>
         <Navbar.Brand as={Link} to="/" className='navbar-title'>CPSC 329 Group Project</Navbar.Brand>
         <Nav className="me-auto">
