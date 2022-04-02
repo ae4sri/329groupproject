@@ -8,7 +8,7 @@ export const IndexPage = () => {
 
   return (
     <Container >
-      <h1 class="title" style={{ textAlign: "center", marginTop:"20px", fontWeight:"bolder" }}>Welcome to our Project</h1>
+      <h1 class="title" style={{ textAlign: "center", marginTop:"10px", fontWeight:"bolder" }}>Welcome to our Project</h1>
       <hr style={{ width:"90%", margin: "auto"}} />
       <br />
       <IndexCarousel />
