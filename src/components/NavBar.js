@@ -6,7 +6,7 @@ export const NavBar = () => {
     <>
     <Navbar collapseOnSelect expand="lg" sx={{ backgroundColor: 'transparent' }} className="navbar">
         <Container>
-        <Navbar.Brand as={Link} to="/" className='navbar-title'>CPSC 329 Group Project</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/" className='navbar-title'>stay safe, have fun</Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link as={Link} to="/" className='nav-link'>Home</Nav.Link>
           <Nav.Link as={Link} to="/game" className='nav-link'>Game</Nav.Link>
