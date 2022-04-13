@@ -10,7 +10,7 @@ with the intent of being fun, but also informative.
 ## How to Run
 
 Assuming node.js is installed, simply download the repository, enter the directory for it in your command line, run `npm install`, and then run 
-`npm run dev` to host a local copy of the website. 
+`npm start` to run a local copy of the website. 
 
 Credits can all be found on the website in the "About" page.
 
