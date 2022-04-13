@@ -11,21 +11,20 @@ export const IndexCarousel = () => {
     <div className='mb-3'>
       <Carousel >
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            alt="First slide"
-            src={comicExample}
-          />
-
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
+        <img
             className="d-block w-100"
             src={codePicture}
             alt="Second slide"
             
           />
+        </Carousel.Item>
+        <Carousel.Item>
 
+         <img
+            className="d-block w-100"
+            alt="First slide"
+            src={comicExample}
+          />
 
         </Carousel.Item>
         <Carousel.Item>
