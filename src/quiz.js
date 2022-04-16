@@ -208,7 +208,50 @@ export const quiz =  {
       "explanation": "You should avoid downloading apps from sources that you do not trust as hackers could use malicious software disguised as something entirely different to gain control of your device. These types of threats go by the name 'Trojan'.",
       "point": "1"
     },
-
-
+    {
+      "question": "Now, time for a few questions about the game. First, what is a virus?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A computer game that is so graphically intensive, it literally burns a bit of your graphics card every minute you play it.",
+        "A malware that automatically attaches itself to programs or files.",
+        "A program that overloads your computer, making you unable to do anything at all."
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": correctAnswer,
+      "messageForIncorrectAnswer": "Close. Try to approach it from a (completely different) angle!",
+      "explanation": "A virus is a malware that automatically attaches itself to programs or files. Many document types can contain executable code. When a virus is opened, the virus code runs and tries to infect other files. Stay vigilant, and don't download untrusted files.",
+      "point": "1"
+    },
+    {
+      "question": "What does a polymorphic virus do?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Remain hidden from the system by acting as an anti-virus. In other words, being a double agent.",
+        "Take over the user's monitor, and display obscene images to them.",
+        "Change a line or two of their own code when they replicate."
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": correctAnswer,
+      "messageForIncorrectAnswer": "Almost. Maybe consider playing the game again?",
+      "explanation": "Many anti-viruses detect malware using a signature-based system, essentially spotting viruses because of specificities in the code. A polymorphic virus changes itself when it replicates by a line or two, making it harder for a signature-based system to detect them, as the code won't be the same!",
+      "point": "1"
+    },
+    {
+      "question": "In the context of information technology, what is a worm? Note, this one is for double points!",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A virus that can spread without anybody knowing.",
+        "An earthworm.",
+        "An image that slides very smoothly across your screen.",
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": correctAnswer,
+      "messageForIncorrectAnswer": "Almost. Maybe consider playing the game again?",
+      "explanation": "A worm is a malware that can spread without the user doing anything. Worms are usually meant to exploit security flaws in remote machines.",
+      "point": "2"
+    },
   ]
 } 
