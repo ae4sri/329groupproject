@@ -26,7 +26,7 @@ export const AboutPage = () => {
                                     Developed and hosted the website.
                                     <br />
                                 </Card.Text>
-                                <Card.Link href="#">GitHub</Card.Link>
+                                <Card.Link href="#"><a href="https://github.com/ae4sri/">GitHub</a> </Card.Link>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -73,38 +73,6 @@ export const AboutPage = () => {
                 </Row>
             </Container>
             <br />
-            <div id="aboutTitle" style={{ textAlign: "center" }}>Want the Code?</div>
-            <br />
-            <Container>
-                <Row>
-                    <Col>
-                        <Card >
-                            <Card.Body>
-                                <Card.Title class="cardTitle">Website Source Code</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">By Amin Elnasri & Umar Hassan</Card.Subtitle>
-                                <Card.Text class="cardText">
-                                    The code for this very website.
-                                </Card.Text>
-                                <Card.Link href="#"><a href="https://github.com/ae4sri/329groupproject">This Website's Source Code</a> </Card.Link>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-
-                    <Col>
-                        <Card >
-                            <Card.Body>
-                                <Card.Title class="cardTitle">Game Source Code</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">By Ayo Alabi</Card.Subtitle>
-                                <Card.Text class="cardText">
-                                    The code for the Game in the "Game" section of the website.
-                                </Card.Text>
-                                <Card.Link href="#"><a href="https://github.com/ae4sri/329groupproject">Game Code</a> </Card.Link>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
-            </Container>
-
 
         </Container>
     )
