@@ -6,7 +6,6 @@ export const ComicPage = () => {
   return (
     <Container>
       <div id="aboutTitle" style={{ textAlign: "center" }}>Comic</div>
-      <div id="warning" style={{ textAlign: "center" }}>(if it doesn't render properly, refresh your page!) </div>
       <div id="comicPicture">
         <img src={comic} />
       </div>
