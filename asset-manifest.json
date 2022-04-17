@@ -1,25 +1,16 @@
 {
   "files": {
-    "main.css": "/329groupproject/static/css/main.67ee0a66.css",
-    "main.js": "/329groupproject/static/js/main.017efe93.js",
-    "static/media/4.png": "/329groupproject/static/media/4.6d0c4d653e9ac8009cca.png",
-    "static/media/6.png": "/329groupproject/static/media/6.0524be476e1dab530121.png",
-    "static/media/7.png": "/329groupproject/static/media/7.f5a85231a5d3b267333e.png",
-    "static/media/1.png": "/329groupproject/static/media/1.b040d83ceb78c6946852.png",
-    "static/media/2.png": "/329groupproject/static/media/2.56732b33448c7a2429f3.png",
-    "static/media/5.png": "/329groupproject/static/media/5.acbeccfd11ce79da18a2.png",
-    "static/media/8.png": "/329groupproject/static/media/8.1197cf86e30f5a950a4f.png",
-    "static/media/3.png": "/329groupproject/static/media/3.21f0170951e537f98988.png",
+    "main.css": "/329groupproject/static/css/main.28672db4.css",
+    "main.js": "/329groupproject/static/js/main.8bac83e5.js",
     "static/media/comicExample.png": "/329groupproject/static/media/comicExample.437ff4c5f948a17bfea7.png",
-    "static/media/xkcdfiller.png": "/329groupproject/static/media/xkcdfiller.77a304f496b6c3f59e9b.png",
     "static/media/quiz.png": "/329groupproject/static/media/quiz.c60a9e1f71299f78ad50.png",
     "static/media/codePicture.png": "/329groupproject/static/media/codePicture.02d47738e94b194ca6c4.png",
     "index.html": "/329groupproject/index.html",
-    "main.67ee0a66.css.map": "/329groupproject/static/css/main.67ee0a66.css.map",
-    "main.017efe93.js.map": "/329groupproject/static/js/main.017efe93.js.map"
+    "main.28672db4.css.map": "/329groupproject/static/css/main.28672db4.css.map",
+    "main.8bac83e5.js.map": "/329groupproject/static/js/main.8bac83e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.67ee0a66.css",
-    "static/js/main.017efe93.js"
+    "static/css/main.28672db4.css",
+    "static/js/main.8bac83e5.js"
   ]
 }
