@@ -1,6 +1,6 @@
-# Group Project for CPSC 329 
+# Stay Safe, Have Fun
 
-This is our group project for CPSC 329 at the University of Calgary, hosted here: https://ae4sri.github.io/329groupproject/
+Project hosted here: https://ae4sri.github.io/329groupproject/
 
 ## About
 
